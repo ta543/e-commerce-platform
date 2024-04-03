@@ -2,7 +2,7 @@
 
 ## 📜 Overview 
 
-We embarked on a journey to architect a scalable and resilient e-commerce platform on AWS, harnessing Amazon EKS for container orchestration, AWS App Mesh for seamless service mesh integration, and the suite of AWS tools for unparalleled observability. This endeavor was aimed at demonstrating profound expertise within the AWS ecosystem, focusing on infrastructure as code, meticulous automation, stringent security practices, and astute cost optimization.
+I embarked on a journey to architect a scalable and resilient e-commerce platform on AWS, harnessing Amazon EKS for container orchestration, AWS App Mesh for seamless service mesh integration, and the suite of AWS tools for unparalleled observability. This endeavor was aimed at demonstrating profound expertise within the AWS ecosystem, focusing on infrastructure as code, meticulous automation, stringent security practices, and astute cost optimization.
 
 ## 🔑 Key Milestones Achieved
 
@@ -39,4 +39,3 @@ We embarked on a journey to architect a scalable and resilient e-commerce platfo
 
 ### 🛡️ Ensured Disaster Recovery and High Availability
 - Adopted a multi-AZ approach with Amazon EKS and implemented robust disaster recovery strategies, including Amazon RDS Multi-AZ deployments and cross-region snapshots.
-    
