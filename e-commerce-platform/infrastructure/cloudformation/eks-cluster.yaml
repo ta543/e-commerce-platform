@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'EKS Cluster for E-Commerce Platform'
+Resources:
+  EKSCluster:
+    Type: AWS::EKS::Cluster
+    Properties:
+      Name: E-Commerce-EKS
+      Version: '1.18'
+      ResourcesVpcConfig:
+        SubnetIds: [Subnet-1, Subnet-2, Subnet-3]

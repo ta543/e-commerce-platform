@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Databases for E-Commerce Platform'
+Resources:
+  RDSInstance:
+    Type: AWS::RDS::DBInstance
+    Properties:
+      DBInstanceIdentifier: E-Commerce-DB
+      Engine: postgres
+      MasterUsername: admin
+      MasterUserPassword: ChangeMe1234!
+      DBInstanceClass: db.t3.micro
+      AllocatedStorage: 20

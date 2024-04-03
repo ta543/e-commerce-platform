@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'AWS App Mesh for Microservices Communication'
+Resources:
+  AppMesh:
+    Type: AWS::AppMesh::Mesh
+    Properties:
+      MeshName: E-Commerce-Mesh
