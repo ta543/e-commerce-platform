@@ -16,7 +16,7 @@ We embarked on a journey to architect a scalable and resilient e-commerce platfo
 - Implemented an automated CI/CD pipeline using AWS CodePipeline and AWS CodeBuild, covering all phases from build and test to deployment.
 - Adopted blue/green deployment strategies in tandem with Amazon EKS and AWS App Mesh, effectively minimizing downtime and mitigating risks associated with updates.
 
-### 🔍 Advanced Observability Realized
+### 🔍  Observability Realized
 - Utilized Amazon CloudWatch for exhaustive logging, metrics, and alarms.
 - Employed AWS X-Ray for intricate tracing of requests across the microservices.
 - Integrated Amazon Elasticsearch Service with Kibana for sophisticated log analysis and visualization.
@@ -25,7 +25,7 @@ We embarked on a journey to architect a scalable and resilient e-commerce platfo
 - Opted for Amazon RDS or Amazon Aurora for our relational database needs, prioritizing high availability and automatic failover.
 - Enhanced data retrieval speeds by implementing Amazon ElastiCache, using either Redis or Memcached for efficient data caching.
 
-### 🔒 Uncompromised Security and Compliance
+### 🔒 Security and Compliance
 - Leveraged AWS Identity and Access Management (IAM) for comprehensive access control.
 - Ensured secure user authentication and authorization within the application using Amazon Cognito.
 - Guaranteed encryption in transit and at rest utilizing AWS Certificate Manager and AWS Key Management Service (KMS).
@@ -39,3 +39,4 @@ We embarked on a journey to architect a scalable and resilient e-commerce platfo
 
 ### 🛡️ Ensured Disaster Recovery and High Availability
 - Adopted a multi-AZ approach with Amazon EKS and implemented robust disaster recovery strategies, including Amazon RDS Multi-AZ deployments and cross-region snapshots.
+    
